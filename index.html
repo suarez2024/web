@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Propuesta Carta Digital</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      background-color: #ffffff;
+      max-width: 600px;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #2c3e50;
+      font-weight: 700;
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+    }
+    p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+    .highlight {
+      color: #27ae60;
+      font-weight: 600;
+    }
+    .signature {
+      margin-top: 30px;
+      font-style: italic;
+      font-size: 1rem;
+      color: #555;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: #27ae60;
+        color: white;
+        padding: 8px 2px 8px 8px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-right: 17px;
+    }
+    .button:hover {
+      background-color: #21915081;
+    }
+    .contact-buttons {
+      margin-top: 15px;
+      display: grid;
+      grid-template-columns: repeat(11, 1fr);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Transforme la experiencia de sus clientes</h1>
+    <p>Estimado <span class="highlight">Cliente</span>,</p>
+    <p>
+      Quisiera presentarle una solución innovadora que puede transformar la experiencia de sus clientes y optimizar la gestión de su <span class="highlight">cafetería/restaurante</span>: nuestras <strong>cartas digitales personalizadas</strong>.
+    </p>
+    <p>
+      Imagine ofrecer a sus comensales la posibilidad de explorar su menú completo desde cualquier dispositivo móvil, con una presentación moderna, atractiva y siempre actualizada en tiempo real. Nuestras cartas digitales facilitan la elección, incluyendo imágenes, descripciones detalladas y opciones para personalizar pedidos, mejorando significativamente la satisfacción del cliente.
+    </p>
+    <p>
+      Además, <strong>reduce el contacto físico</strong> para mayor higiene y seguridad, elimina costos de impresión y permite implementar promociones y cambios de menú al instante, sin esperas ni gastos extra.
+    </p>
+    <p>
+      Estamos seguros de que esta herramienta <span class="highlight">potenciará la eficiencia operativa</span>, ofrecerá una mejor experiencia al cliente y <span class="highlight">aumentará sus ventas</span>. Me encantaría coordinar una demostración para mostrarle cómo se adapta perfectamente a sus necesidades.
+    </p>
+
+    <p class="signature">
+        Saludos cordiales,<br />
+        <strong>Marcos Antonio Suárez Brea</strong><br />
+    <div class="contact-buttons">
+        <!-- <a href="tel:+5352530102" class="button">Llamar móvil</a>
+                <a href="marcossuarezbrea@gmail.com" class="button">Enviar correo</a> -->
+        <a href="tel:+1234567890" class="button" aria-label="Llamar móvil">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white" viewBox="0 0 24 24"
+                style="vertical-align: middle; margin-right: 8px;">
+                <path
+                    d="M22 16.92v3a2.07 2.07 0 0 1-2.27 2A19.79 19.79 0 0 1 3 5.27 2.07 2.07 0 0 1 5 3h3a2 2 0 0 1 2 1.72 13 13 0 0 0 .7 2.81 2 2 0 0 1-.45 2L9.91 10.91a16 16 0 0 0 5.17 5.17l1.36-1.36a2 2 0 0 1 2-.45 13 13 0 0 0 2.81.7 2 2 0 0 1 1.72 2z" />
+            </svg>
+        </a>
+        <a href="mailto:tuemail@empresa.com" class="button" aria-label="Enviar correo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white" viewBox="0 0 24 24"
+                style="vertical-align: middle; margin-right: 8px;">
+                <path
+                    d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z" />
+            </svg>
+        </a>
+    
+    </div>
+    </p>
+  </div>
+</body>
+</html>
